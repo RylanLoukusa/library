@@ -1,0 +1,82 @@
+* {
+  margin: 8px;
+  background-color: rgb(255, 251, 242);
+}
+.title {
+  text-align: center;
+  font-size: 80px;
+}
+
+.add {
+  margin-left: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  height: 70h;
+  border-radius: 5px;
+}
+
+#left,
+#title,
+#author,
+#pages,
+#status {
+  background-color: aquamarine;
+}
+
+#submit {
+  background-color: white;
+  border-color: grey;
+}
+.side-title {
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+.under {
+  display: flex;
+  flex-direction: row;
+}
+.display {
+  margin-left: 5vw;
+  padding: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  height: 80vh;
+}
+
+input,
+select {
+  border-radius: 3px;
+  border-color: white;
+  padding: 8px;
+}
+
+label {
+  font-weight: 900;
+}
+th {
+  text-align: left;
+}
+
+.titles th {
+  border-bottom: 1px solid black;
+}
+.borders {
+  border-left: 1px solid black;
+}
+table {
+  border-spacing: 0px;
+}
+
+.status {
+  text-align: center;
+}
+
+.status-button,
+.Delete {
+  padding: 5px;
+  border-radius: 3px;
+}
